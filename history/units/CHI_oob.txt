@@ -1,0 +1,39 @@
+army = {
+	name = "Army of Forbidden Banners"
+	location = 1562
+	regiment = {
+		name= "1. Manchu Yellow Banner"
+		type = artillery
+		home = 1489
+	}
+
+	regiment = {
+		name= "2.Manchu Yellow Banner"
+		type = artillery
+		home = 1562
+	}
+
+	regiment = {
+		name= "3.Manchu Yellow Banner"
+		type = artillery
+		home = 1559
+	}
+}
+
+army = {
+	name = "Army of The Manchu Bordered Yellow Banner"
+	location = 1489
+	
+	regiment = {
+		name= "1.Manchu Bordered Yellow Banner"
+		type = hussar
+		home = 1562
+	}
+
+	regiment = {
+		name= "2.Manchu Bordered Yellow Banner"
+		type = artillery
+		home = 1559
+	}
+
+}

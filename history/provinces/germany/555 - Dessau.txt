@@ -1,0 +1,5 @@
+owner = KLM
+controller = KLM
+add_core = COB
+trade_goods = fruit
+life_rating = 40 

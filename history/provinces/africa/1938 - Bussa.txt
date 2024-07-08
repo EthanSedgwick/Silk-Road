@@ -1,0 +1,5 @@
+controller = SOK
+owner = SOK
+add_core = SOK
+trade_goods = fruit
+life_rating = 15

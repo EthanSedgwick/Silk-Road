@@ -1,0 +1,15 @@
+owner = JAV
+controller = JAV
+add_core = JAV
+trade_goods = iron
+life_rating = 35
+state_building = {
+	level = 1
+	building = fertilizer_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = clipper_shipyard
+	upgrade = yes
+}

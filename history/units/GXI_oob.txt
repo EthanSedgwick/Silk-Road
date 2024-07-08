@@ -1,0 +1,492 @@
+
+NEP = {
+	value = 125		#relation
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+MCK = {
+	value = 125		#relation
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+
+XIN = {
+	value = 125		#relation
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+
+DAI = {
+	value = 125		#relation
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+
+XBI = {
+	value = 125		#relation
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+
+JOH = {
+	value = 50		#relation
+	level = 2		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+
+JAV = {
+	value = 50		#relation
+	level = 2		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+
+leader = {
+	name = "Lian Feng"
+	date = 1805.1.1
+	type = land
+	personality = au_fait
+	background = elderly
+	prestige = 0.3
+}
+
+leader = {
+	name = "Wei Xinyi"
+	date = 1835.1.1
+	type = land
+	personality = wrathful
+	background = natural_born_leader
+	prestige = 0.1
+}
+
+leader = {
+	name = "Zhang Tianlong"
+	date = 1835.1.1
+	type = land
+	personality = active_p
+	background = aristocrat
+	prestige = 0.1
+}
+
+leader = {
+	name = "Lin Xingwei"
+	date = 1834.1.1
+	type = land
+	personality = aggressive
+	background = generals_aide
+	prestige = 0.1
+}
+
+leader = {
+	name = "Mei Ying"
+	date = 1832.1.1
+	type = land
+	personality = bold
+	background = drillmaster
+	prestige = 0.1
+}
+
+leader = {
+	name = "Han Zhirong"
+	date = 1826.1.1
+	type = land
+	personality = arrogant
+	background = butcher
+	prestige = 0.3
+}
+
+leader = {
+	name = "Wu Shen"
+	date = 1836.1.1
+	type = land
+	personality = active_p
+	background = aristocrat
+}
+
+leader = {
+	name = "Zhao Huilan"
+	date = 1824.1.1
+	type = sea
+	personality = competent
+	background = aristocrat
+	prestige = 0.1
+}
+
+army = {
+	name = "The Tainan Banner"
+	location = 1485
+	regiment = {
+		name= "1. Manchu Yellow Banner"
+		type = artillery
+		home = 1585
+	}
+
+	regiment = {
+		name= "2.Manchu Yellow Banner"
+		type = infantry
+		home = 1601
+	}
+
+	regiment = {
+		name= "3.Manchu Yellow Banner"
+		type = infantry
+		home = 1580
+	}
+}
+
+army = {
+	name = "The Nanfaren Red Banner"
+	location = 1577
+	
+	regiment = {
+		name= "1.Manchu Bordered Yellow Banner"
+		type = artillery
+		home = 1507
+	}
+
+	regiment = {
+		name= "2.Manchu Bordered Yellow Banner"
+		type = infantry
+		home = 1525
+	}
+
+	regiment = {
+		name= "3.Manchu Bordered Yellow Banner"
+		type = infantry
+		home = 1529
+	}
+}
+
+army = {
+	name = "Army of Forbidden Banners"
+	location = 1460
+
+	regiment = {
+		name= "1.Manchu White Banner"
+		type = artillery
+		home = 1520
+	}
+
+	regiment = {
+		name= "2.Manchu White Banner"
+		type = infantry
+		home = 1526
+	}
+
+	regiment = {
+		name= "3.Manchu White Banner"
+		type = infantry
+		home = 1524
+	}
+}
+
+army = {
+	name = "The Zhuang Banner"
+	location = 1601
+
+	regiment = {
+		name= "1.Manchu Red Banner"
+		type = artillery
+		home = 1503
+	}
+
+	regiment = {
+		name= "2.Manchu Red Banner"
+		type = infantry
+		home = 1502
+	}
+
+	regiment = {
+		name= "3.Manchu Red Banner"
+		type = infantry
+		home = 1495
+	}
+}
+
+army = {
+	name = "The Nanfaren Blue Banner"
+	location = 1577
+
+	regiment = {
+		name= "1.Manchu Blue Banner"
+		type = artillery
+		home = 1499
+	}
+
+	regiment = {
+		name= "2.Manchu Blue Banner"
+		type = infantry
+		home = 1501
+	}
+
+	regiment = {
+		name= "3.Manchu Blue Banner"
+		type = infantry
+		home = 1493
+	}
+}
+
+army = {
+	name = "The Yue Banner"
+	location = 1503
+
+	regiment = {
+		name= "1.Tatar hussar"
+		type = hussar
+		home = 1527
+	}
+
+	regiment = {
+		name= "2.Tatar hussar"
+		type = hussar
+		home = 1530
+	}
+
+	regiment = {
+		name= "3.Tatar hussar"
+		type = hussar
+		home = 1547
+	}
+
+	regiment = {
+		name= "4.Tatar hussar"
+		type = hussar
+		home = 1545
+	}
+
+	regiment = {
+		name= "5.Tatar hussar"
+		type = hussar
+		home = 1546
+	}
+
+	regiment = {
+		name= "6.Tatar hussar"
+		type = hussar
+		home = 1551
+	}
+
+}
+
+army = {
+	name = "The Min Banner"
+	location = 1482
+	regiment = {
+		name= "1st Green Standard"
+		type = artillery
+		home = 1549
+	}
+
+	regiment = {
+		name= "2nd Green Standard"
+		type = artillery
+		home = 1607
+	}
+
+	regiment = {
+		name= "3rd Green Standard"
+		type = artillery
+		home = 1610
+	}
+	
+	regiment = {
+		name= "4th Green Standard"
+		type = infantry
+		home = 1611
+	}
+
+	regiment = {
+		name= "5th Green Standard"
+		type = infantry
+		home = 1482
+	}
+
+	regiment = {
+		name= "6th Green Standard"
+		type = infantry
+		home = 1486
+	}
+	
+		regiment = {
+		name= "7th Green Standard"
+		type = infantry
+		home = 1550
+	}
+
+	regiment = {
+		name= "8th Green Standard"
+		type = infantry
+		home = 1494
+	}
+
+	regiment = {
+		name= "9th Green Standard"
+		type = infantry
+		home = 1484
+	}
+}
+
+army = {
+	name = "The Hakka Banner"
+	location = 1547
+	
+	regiment = {
+		name= "10th Green Standard"
+		type = artillery
+		home = 1486   
+	}
+
+	regiment = {
+		name= "11th Green Standard"
+		type = artillery
+		home = 1483
+	}
+
+	regiment = {
+		name= "12th Green Standard"
+		type = infantry
+		home = 1527
+	}
+	
+	regiment = {
+		name= "13th Green Standard"
+		type = infantry
+		home = 1524
+	}
+}
+
+
+navy = {
+	name = "Gold Fleet"
+	location = 1498
+	ship = {
+		name= "IGN Formidable"
+		type = manowar
+	}
+
+	ship = {
+		name= "IGN Ganges"
+		type = manowar
+	}
+
+	ship = {
+		name= "IGN Hastings"
+		type = manowar
+	}
+	ship = {
+		name= "IGN Forth"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "IGN Gloucester"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "IGN Pique"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "IGN Seahorse"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "IGN Stag"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "IGN Thalia"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "IGN Vernon"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "IGN Vindictive"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "IGN Medea"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "IGN Phoenix"
+		type = clipper_transport
+	}
+}
+
+navy = {
+	name = "Silver Fleet"
+	location = 1485
+	ship = {
+		name= "IGN Formidable"
+		type = manowar
+	}
+
+	ship = {
+		name= "IGN Ganges"
+		type = manowar
+	}
+
+	ship = {
+		name= "IGN Hastings"
+		type = manowar
+	}
+	ship = {
+		name= "IGN Forth"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "IGN Gloucester"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "IGN Pique"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "IGN Seahorse"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "IGN Stag"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "IGN Thalia"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "IGN Vernon"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "IGN Vindictive"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "IGN Medea"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "IGN Phoenix"
+		type = clipper_transport
+	}
+}

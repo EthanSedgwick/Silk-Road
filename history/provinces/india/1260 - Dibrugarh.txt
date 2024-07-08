@@ -1,0 +1,11 @@
+owner = BEN
+controller = BEN
+add_core = BEN
+trade_goods = iron
+life_rating = 35
+state_building = {
+	level = 1
+	building = artillery_factory
+	upgrade = yes
+}
+add_core = BUR

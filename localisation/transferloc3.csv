@@ -1,0 +1,5 @@
+CODE;ENGLISH;FRENCH;GERMAN;POLISH;SPANISH;ITALIAN;SWEDISH;CZECH;HUNGARIAN;DUTCH;PORTUGUESE;RUSSIAN;FINNISH;x
+state_deselector;Unmarking for Transfer;;;;;;;;;;;;;x
+state_deselector_desc;Description goes here.;;;;;;;;;;;;;x
+state_selector;State Marked for Transfer;;;;;;;;;;;;;x
+state_selector_desc;Description goes here.;;;;;;;;;;;;;x

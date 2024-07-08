@@ -1,0 +1,5 @@
+owner = HES
+controller = HES
+add_core = HES
+trade_goods = precious_metal
+life_rating = 35 

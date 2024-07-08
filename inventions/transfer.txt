@@ -1,0 +1,55 @@
+i_selector = {
+	limit = {
+		liquidation_of_assets = 1
+	}
+
+	news = no
+
+	chance = {
+		base = 0
+		modifier = {
+			factor = -100
+			OR = {
+				ai = yes
+
+			}
+		}
+		modifier = {
+			factor = 100
+
+			ai = no
+		}
+	}
+
+	effect = {
+		activate_building = state_selector
+	}
+}
+
+i_deselector = {
+	limit = {
+		liquidation_of_assets = 1
+	}
+
+	news = no
+
+	chance = {
+		base = 0
+		modifier = {
+			factor = -100
+			OR = {
+				ai = yes
+
+			}
+		}
+		modifier = {
+			factor = 100
+
+			ai = no
+		}
+	}
+
+	effect = {
+		activate_building = state_deselector
+	}
+}

@@ -1,0 +1,7 @@
+owner = NVG
+controller = NVG
+add_core = NVG
+add_core = UBD
+add_core = PLC
+trade_goods = fish
+life_rating = 35 

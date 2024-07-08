@@ -1,0 +1,5 @@
+owner = BOH
+controller = BOH
+add_core = BAV
+trade_goods = timber
+life_rating = 35 

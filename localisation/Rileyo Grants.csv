@@ -1,0 +1,7 @@
+#;;;;;;;;;;;;;x;;;
+abc_will_receive_grant_title;Request A Grant;;;;;;;;;;;;x;;;
+abc_will_receive_grant_desc;This will request a grant from other players. Please note they must have choosen the decision to enable giving grants for the request to go through. It can be reversed at any time.;;;;;;;;;;;;x;;;
+abc_will_give_grant_title;§GEnable receiving monetary grant requests;;;;;;;;;;;;x;;;
+abc_will_give_grant_desc;This will allow us to receive events from other players requesting money. It can be reversed at any time.;;;;;;;;;;;;x;;;
+abc_will_not_give_grant_title;§RDisable receiving monetary grant requests;;;;;;;;;;;;x;;;
+abc_will_not_give_grant_desc;This will prevent us from getting events when other players request grants. It can be reversed at any time.;;;;;;;;;;;;x;;;

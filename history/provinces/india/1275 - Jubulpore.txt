@@ -1,0 +1,5 @@
+owner = LAD
+controller = LAD
+add_core = LAD
+trade_goods = dye
+life_rating = 35 

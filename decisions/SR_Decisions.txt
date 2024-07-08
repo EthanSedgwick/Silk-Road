@@ -1,0 +1,272 @@
+political_decisions = {
+	sr_india_begin_race = {
+		potential = {
+			OR = {
+				tag = BEN
+				tag = TRA
+				tag = PAN
+			}
+			NOT = {
+				has_global_flag = indian_countdown
+				has_global_flag = hegemony_secured
+			}
+		}
+		allow = {
+			war = no
+			state_n_government = 1
+			NOT = {
+				exists = ORI
+				OR = {
+					exists = BHO
+					exists = IND
+				}
+				OR = {
+					exists = BUN
+					exists = LAD
+					exists = BER
+				}
+			}
+		}
+		effect = {
+			country_event = {
+				id = 19690001
+				days = 1
+			}
+		}
+	}
+	
+	sr_ottoman_annex_iraq_armenia = {
+		potential = {
+			tag = TUR
+			OR = {
+				exists = IRQ
+				exists = ARM
+			}
+		}
+		allow = {
+			war = no
+			nationalism_n_imperialism = 1
+			OR = {
+				IRQ = {
+					vassal_of = THIS
+				}
+				ARM = {
+					vassal_of = THIS
+				}
+				GEO = {
+					vassal_of = THIS
+				}
+			}
+		}
+		effect = {
+			any_country = {
+				limit = {
+					OR = {
+						primary_culture = mashriqi
+						primary_culture = armenian
+						primary_culture = georgian
+					}
+					OR = {
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+				}
+				annex_to = THIS
+			}
+			any_owned = {
+				limit = {
+					OR = {
+						is_core = IRQ
+						is_core = GEO
+						is_core = ARM
+					}
+				}
+				add_core = TUR
+				remove_core = IRQ
+				remove_core = GEO
+				remove_core = ARM
+			}			
+		}
+	}
+	
+	sr_ottoman_annex_balkans = {
+		potential = {
+			tag = TUR
+			OR = {
+				exists = SER
+				exists = WAL
+				exists = MON
+				exists = MOL
+			}
+		}
+		allow = {
+			war = no
+			revolution_n_counterrevolution = 1
+			OR = {
+				SER = {
+					vassal_of = THIS
+				}
+				WAL = {
+					vassal_of = THIS
+				}
+				MOL = {
+					vassal_of = THIS
+				}
+				MON = {
+					vassal_of = THIS
+				}
+			}
+		}
+		effect = {
+			any_country = {
+				limit = {
+					OR = {
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+					OR = {
+						primary_culture = serb
+						primary_culture = romanian
+					}
+				}
+				annex_to = THIS
+			}
+			any_owned = {
+				limit = {
+					OR = {
+						is_core = SER
+						is_core = WAL
+						is_core = MOL
+						is_core = MON
+					}
+				}
+				add_core = TUR
+				remove_core = SER
+				remove_core = WAL
+				remove_core = MOL
+				remove_core = MON
+			}			
+		}
+	}
+	
+	sr_ottoman_annex_egypt = {
+		potential = {
+			tag = TUR
+			exists = EGY
+		}
+		allow = {
+			war = no
+			state_n_government = 1
+			EGY_1753 = {
+				owner = {
+					OR = {
+						tag = THIS
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+				}
+			}
+			EGY_1750 = {
+				owner = {
+					OR = {
+						tag = THIS
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+				}
+			}
+			EGY_1746 = {
+				owner = {
+					OR = {
+						tag = THIS
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+				}
+			}
+		}
+		effect = {
+			any_country = {
+				limit = {
+					primary_culture = misri
+				}
+				annex_to = THIS
+			}
+			any_owned = {
+				limit = {
+					is_core = EGY
+				}
+				add_core = TUR
+				remove_core = EGY
+			}
+		}
+	}
+	
+	sr_guangxi_expand_cultures_first = {
+		potential = {
+			exists = BEI
+			tag = GXI
+		}
+		allow = {
+			war = no
+			state_n_government = 1
+		}
+		effect = {
+			add_accepted_culture = yue
+		}
+	}
+	
+	sr_guangxi_expand_cultures_second = {
+		potential = {
+			exists = MID
+			tag = GXI
+		}
+		allow = {
+			war = no
+			state_n_government = 1
+	
+		}
+		effect = {
+			add_accepted_culture = zhuang
+			add_accepted_culture = hakka
+		}
+	}
+	
+	french_loraine = {
+        potential = { 
+         tag = FRA 
+        }
+
+        allow = {
+        year = 1840
+        }
+
+        effect = {
+         prestige = 10
+         FRA_411 = { add_core = THIS }
+         412 = { add_core = THIS }
+         }
+    }
+	sr_france_gain_walloon = {
+        potential = {
+            tag = FRA        }
+        allow = {
+            war = no
+            revolution_n_counterrevolution = 1
+            WAL = { all_core = { owned_by = THIS } }
+        }
+        prestige = 10
+        effect = { add_accepted_culture = wallonian }
+    }
+	
+	sr_france_gain_walloon = {
+        potential = {
+            tag = KOR        }
+        allow = {
+            war = no
+            nationalism_n_imperialism = 1
+        }
+        prestige = 10
+        effect = { add_accepted_culture = manchu }
+    }
+}

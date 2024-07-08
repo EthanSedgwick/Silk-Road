@@ -1,0 +1,6 @@
+owner = MOR
+controller = MOR
+add_core = ALD
+trade_goods = iron
+life_rating = 38
+add_core = MOR

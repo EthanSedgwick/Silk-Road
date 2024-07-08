@@ -1,0 +1,5 @@
+owner = NRM
+controller = NRM
+add_core = NRM
+trade_goods = fruit
+life_rating = 35 

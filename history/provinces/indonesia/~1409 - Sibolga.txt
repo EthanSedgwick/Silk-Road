@@ -1,0 +1,15 @@
+owner = JOH
+controller = JOH
+add_core = JOH
+trade_goods = sulphur
+life_rating = 35
+state_building = {
+	level = 1
+	building = fertilizer_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = clipper_shipyard
+	upgrade = yes
+}

@@ -1,0 +1,4 @@
+controller = GWA
+owner = GWA
+trade_goods = coffee
+life_rating = 15
