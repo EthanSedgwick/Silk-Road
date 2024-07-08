@@ -1,6 +1,6 @@
-owner = SWI
-controller = SWI
-add_core = SWI
+owner = BRG
+controller = BRG
+add_core = BRG
 trade_goods = iron
 life_rating = 35
 fort = 1

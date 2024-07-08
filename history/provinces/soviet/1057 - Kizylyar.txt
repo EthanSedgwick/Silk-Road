@@ -1,5 +1,5 @@
-owner = AZB
-controller = AZB
-add_core = AZB
+owner = RUS
+controller = RUS
+add_core = RUS
 trade_goods = silk
 life_rating = 35

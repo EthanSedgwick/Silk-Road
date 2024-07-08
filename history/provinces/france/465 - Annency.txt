@@ -1,6 +1,6 @@
-owner = SAV
-controller = SAV
-add_core = SAV
+owner = NAV
+controller = NAV
+add_core = NAV
 trade_goods = coal
 life_rating = 35
 1861.1.1 = {

@@ -1,5 +1,5 @@
-owner = SWI
-controller = SWI
-add_core = SWI
+owner = SIC
+controller = SIC
+add_core = SIC
 trade_goods = wool
 life_rating = 35 

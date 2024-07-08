@@ -1,6 +1,6 @@
-owner = LOR
-controller = LOR
-add_core = LOR
+owner = NRM
+controller = NRM
+add_core = NRM
 add_core = BRG
 trade_goods = iron
 life_rating = 35 

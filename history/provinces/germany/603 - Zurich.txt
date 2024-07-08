@@ -1,6 +1,6 @@
-owner = SWI
-controller = SWI
-add_core = SWI
+owner = LIP
+controller = LIP
+add_core = LIP
 trade_goods = cattle
 life_rating = 35
 fort = 1

@@ -1,6 +1,6 @@
-owner = NVG
-controller = NVG
-add_core = NVG
+owner = LAT
+controller = LAT
+add_core = LAT
 add_core = UBD
 add_core = PLC
 trade_goods = cattle

@@ -1,5 +1,5 @@
-owner = BOS
-controller = BOS
+owner = HUN
+controller = HUN
 add_core = BOS
 add_core = YUG
 add_core = SER

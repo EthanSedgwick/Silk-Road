@@ -1,5 +1,6 @@
-owner = NAV
-controller = NAV
+owner = NRM
+controller = NRM
+add_core = NRM
 add_core = NAV
 add_core = PRO
 trade_goods = grain

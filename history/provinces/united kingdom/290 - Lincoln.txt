@@ -1,5 +1,6 @@
-owner = NRM
-controller = NRM
+owner = ENG
+controller = ENG
+add_core = ENG
 
 trade_goods = iron
 naval_base = 1
