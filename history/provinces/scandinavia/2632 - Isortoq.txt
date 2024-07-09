@@ -1,6 +1,0 @@
-owner = KLM
-controller = KLM
-add_core = KLM
-add_core = ICL
-trade_goods = fish
-life_rating = 35 

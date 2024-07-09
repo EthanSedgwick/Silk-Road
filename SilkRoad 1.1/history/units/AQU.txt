@@ -1,0 +1,41 @@
+
+
+#========================= L A N D =========================
+
+army = {
+name = "Army of Aquitaine"
+location = 445
+regiment = {
+name = "Regiment 0"
+type = artillery
+home = 442
+}
+regiment = {
+name = "Regiment 1"
+type = artillery
+home = 444
+}
+regiment = {
+name = "Regiment 2"
+type = artillery
+home = 443
+}
+regiment = {
+name = "Regiment 3"
+type = hussar
+home = 446
+}
+regiment = {
+name = "Regiment 4"
+type = infantry
+home = 445
+}
+}
+
+
+#========================= S E A =========================
+
+
+
+#========================= Vic_Nation_Establisher by Diamond.David =========================
+

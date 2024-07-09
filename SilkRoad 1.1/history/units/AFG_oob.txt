@@ -1,0 +1,144 @@
+leader = {
+	name = "Dost Mohammed"
+	type = land
+	date = 1836.1.1
+	personality = stalwart
+	background = debutante
+}
+
+leader = {
+	name = "Yar Mohammed"
+	type = land
+	date = 1836.1.1
+	personality = intuitive 
+	background = aristocrat
+}
+
+army = {
+	name = "Army of Dost Mohammed"
+	location = 1216
+	regiment = {
+		name= "1. Mohammedzi"
+		type = infantry
+		home = 1209
+	}
+
+	regiment = {
+		name= "2. Mohammedzi"
+		type = infantry
+		home = 1209
+	}
+
+	regiment = {
+		name= "3. Mohammedzi"
+		type = infantry
+		home = 1216
+	}
+
+	regiment = {
+		name= "1. Barakzai"
+		type = infantry
+		home = 1209
+	}
+
+	regiment = {
+		name= "2. Barakzai"
+		type = infantry
+		home = 1209
+	}
+
+	regiment = {
+		name= "3. Barakzai"
+		type = infantry
+		home = 1216
+	}
+
+}
+
+army = {
+	name = "Army of Kamran Shah"
+	location = 1212
+	regiment = {
+		name= "1. Popozai"
+		type = infantry
+		home = 1212
+	}
+
+	regiment = {
+		name= "2. Popozai"
+		type = hussar
+		home = 1213
+	}
+
+	regiment = {
+		name= "3. Popozai"
+		type = hussar
+		home = 1213
+	}
+
+	regiment = {
+		name= "1. Tajiki"
+		type = artillery
+		home = 1213
+	}
+
+	regiment = {
+		name= "2. Tajiki"
+		type = artillery
+		home = 1212
+	}
+
+	regiment = {
+		name= "3. Tajiki"
+		type = artillery
+		home = 1212
+	}
+
+}
+
+army = {
+	name = "Army of Kohun-dil-Khan"
+	location = 1215
+	regiment = {
+		name= "1. Durranni"
+		type = artillery
+		home = 1215
+	}
+
+	regiment = {
+		name= "2. Durranni"
+		type = artillery
+		home = 1215
+	}
+
+	regiment = {
+		name= "3. Durranni"
+		type = artillery
+		home = 1214
+	}
+
+}
+
+army = {
+	name = "Army of Badakhshan"
+	location = 1210
+	regiment = {
+		name= "1. Uzbeki"
+		type = artillery
+		home = 1210
+	}
+
+	regiment = {
+		name= "4. Tajiki"
+		type = artillery
+		home = 1210
+	}
+
+	regiment = {
+		name= "5. Tajiki"
+		type = artillery
+		home = 1210
+	}
+
+}
+

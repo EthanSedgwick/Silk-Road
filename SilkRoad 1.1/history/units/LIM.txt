@@ -1,0 +1,51 @@
+
+
+#========================= L A N D =========================
+
+army = {
+name = "Army of Limousin"
+location = 447
+regiment = {
+name = "Regiment 0"
+type = artillery
+home = 447
+}
+regiment = {
+name = "Regiment 1"
+type = artillery
+home = 445
+}
+regiment = {
+name = "Regiment 2"
+type = artillery
+home = 466
+}
+regiment = {
+name = "Regiment 3"
+type = hussar
+home = 446
+}
+regiment = {
+name = "Regiment 4"
+type = infantry
+home = 723
+}
+regiment = {
+name = "Regiment 5"
+type = infantry
+home = 725
+}
+regiment = {
+name = "Regiment 6"
+type = artillery
+home = 472
+}
+}
+
+
+#========================= S E A =========================
+
+
+
+#========================= Vic_Nation_Establisher by Diamond.David =========================
+

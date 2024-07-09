@@ -1,6 +1,0 @@
-owner = JOH
-controller = JOH
-add_core = ZAN
-trade_goods = cattle
-life_rating = 35
-colonial = 2

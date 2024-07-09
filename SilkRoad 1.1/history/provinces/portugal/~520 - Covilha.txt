@@ -1,0 +1,7 @@
+owner = NAV
+controller = NAV
+
+trade_goods = wool
+life_rating = 35 
+
+add_core = NAV

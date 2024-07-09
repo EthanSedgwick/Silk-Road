@@ -1,0 +1,6 @@
+owner = KLM
+controller = KLM
+add_core = KLM
+trade_goods = fruit
+life_rating = 40
+1861.1.1 = { railroad = 3 }

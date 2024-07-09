@@ -1,7 +1,0 @@
-owner = KLM
-controller = KLM
-add_core = KLM
-add_core = DEN
-add_core = SCA
-trade_goods = cattle
-life_rating = 35

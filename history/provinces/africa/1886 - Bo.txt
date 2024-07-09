@@ -1,6 +1,0 @@
-
-trade_goods = grain
-life_rating = 15
-owner = ORA
-controller = ORA
-add_core = ORA

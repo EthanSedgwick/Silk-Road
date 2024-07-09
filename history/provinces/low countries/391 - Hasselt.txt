@@ -1,6 +1,0 @@
-owner = HAN
-controller = HAN
-add_core = HAN
-add_core = FLA
-trade_goods = coal
-life_rating = 35 

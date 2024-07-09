@@ -1,0 +1,4 @@
+controller = AWA
+owner = AWA
+trade_goods = coffee
+life_rating = 15

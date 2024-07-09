@@ -1,6 +1,0 @@
-owner = XBI
-controller = XBI
-add_core = XBI
-trade_goods = tea
-life_rating = 35
-naval_base = 1

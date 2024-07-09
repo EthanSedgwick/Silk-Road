@@ -1,5 +1,0 @@
-owner = MYS
-controller = MYS
-add_core = AST
-trade_goods = wool
-life_rating = 30

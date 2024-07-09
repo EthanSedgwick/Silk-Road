@@ -1,5 +1,0 @@
-owner = LIP
-controller = LIP
-add_core = LIP
-trade_goods = cattle
-life_rating = 35 

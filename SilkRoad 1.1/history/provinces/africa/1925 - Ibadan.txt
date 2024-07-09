@@ -1,0 +1,4 @@
+controller = KAS
+owner = KAS
+trade_goods = coffee
+life_rating = 15

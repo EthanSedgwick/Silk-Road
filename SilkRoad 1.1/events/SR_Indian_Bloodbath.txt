@@ -1,0 +1,215 @@
+country_event = {
+
+	id = 19690001
+	
+	title = "Bloodbath Status"
+
+	desc = "The current state of the Central Indian Bloodbath is"
+	
+	major = yes
+	
+	trigger = {
+		year = 1852
+		tag = SER
+		NOT = { has_global_flag = indian_event_done }
+	}
+	
+	mean_time_to_happen = {
+		months = 6
+		
+		modifier = {
+			factor = 3
+			has_global_flag = indian_event_started
+		}
+	}
+	
+	option = {
+		name = "checking...."
+		# initializes variable
+		any_country = {
+			limit = {
+				OR = {
+					tag = PAN
+					tag = BEN
+					tag = TRA
+				}
+			}
+			set_variable = {
+				which = indian_capitals
+				value = 0
+			}
+			set_global_flag = indian_event_started
+		}
+		
+		# checks for capitals owned, duplicate for each capital and change the country flag applied
+		any_country = {
+			limit = {
+				OR = {
+					tag = PAN
+					tag = BEN
+					tag = TRA
+				}
+				owns = 1295
+			}
+			change_variable = {
+				which = indian_capitals
+				value = 1
+			}
+		}
+		
+		any_country = {
+			limit = {
+				OR = {
+					tag = PAN
+					tag = BEN
+					tag = TRA
+				}
+				owns = 1270
+			}
+			change_variable = {
+				which = indian_capitals
+				value = 1
+			}
+		}
+		
+		
+		any_country = {
+			limit = {
+				OR = {
+					tag = PAN
+					tag = BEN
+					tag = TRA
+				}
+				owns = 1274
+			}
+			change_variable = {
+				which = indian_capitals
+				value = 1
+			}
+		}
+		
+		
+		
+		any_country = {
+			limit = {
+				OR = {
+					tag = PAN
+					tag = BEN
+					tag = TRA
+				}
+				owns = 1261
+			}
+			change_variable = {
+				which = indian_capitals
+				value = 1
+			}
+		}
+		
+		
+		any_country = {
+			limit = {
+				OR = {
+					tag = PAN
+					tag = BEN
+					tag = TRA
+				}
+				owns = 1277
+			}
+			change_variable = {
+				which = indian_capitals
+				value = 1
+			}
+		}
+		
+		
+		any_country = {
+			limit = {
+				OR = {
+					tag = PAN
+					tag = BEN
+					tag = TRA
+				}
+				owns = 1297
+			}
+			change_variable = {
+				which = indian_capitals
+				value = 1
+			}
+		}
+		
+		any_country = {
+		limit = {
+			OR = {
+				tag = PAN
+				tag = BEN
+				tag = TRA
+			}
+			check_variable = {
+				which = indian_capitals
+				value = 3
+			}
+		}
+		set_global_flag = indian_event_done
+		set_country_flag = indian_winner
+		clr_global_flag = indian_event_started
+	}
+}
+
+
+country_event = {
+
+	id = 19690002
+	
+	title = "Victory!"
+	major = yes
+	
+	fire_only_once = yes
+
+	desc = "The Merchant Kings have declared their unwavering support to our banner. We are the victors of the Central Indian Bloodbath!"
+	
+	trigger = {
+		has_country_flag = indian_winner
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+		
+	# checks if any other of the 3 nation has a variable higher, it might NOT check if its 3 or higher, but if its HIGHER than 3 idk.
+	option = {
+		name = "Construct the Regional Capital"
+		add_accepted_culture = kanauji
+	}
+}
+
+country_event = {
+
+	id = 19690003
+	
+	title = "Defeat..."
+	major = yes
+
+	desc = "Our rivals have defeated us... Perhaps we must attempt to change our relationship with them in order to survive..."
+	
+	fire_only_once = yes
+	
+	trigger = {
+		has_global_flag = indian_event_done
+		OR = {
+			tag = PAN
+			tag = BEN
+			tag = TRA
+		}
+		NOT = {
+			has_country_flag = indian_winner
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+		
+	option = {
+		name = "Failure..."
+	}
+}

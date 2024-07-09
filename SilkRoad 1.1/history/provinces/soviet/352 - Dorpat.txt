@@ -1,0 +1,7 @@
+owner = NVG
+controller = NVG
+add_core = NVG
+add_core = EST
+add_core = UBD
+trade_goods = cattle
+life_rating = 35 

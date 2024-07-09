@@ -1,0 +1,5 @@
+owner = NVG
+controller = NVG
+add_core = NVG
+trade_goods = grain
+life_rating = 15
