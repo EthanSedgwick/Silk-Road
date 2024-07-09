@@ -1,6 +1,0 @@
-owner = NOR
-controller = NOR
-colonial = 2
-
-trade_goods = cattle
-life_rating = 15 
