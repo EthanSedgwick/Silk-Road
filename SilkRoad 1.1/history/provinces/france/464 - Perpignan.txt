@@ -1,0 +1,9 @@
+owner = NAV
+controller = NAV
+
+
+add_core = CAT
+trade_goods = grain
+life_rating = 35 
+
+add_core = NAV

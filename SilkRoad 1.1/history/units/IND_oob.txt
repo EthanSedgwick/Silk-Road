@@ -1,0 +1,66 @@
+army = {
+	name = "Army of the Rao of Indore"
+	location = 1297
+	regiment = {
+		name= "1.1st Infantry"
+		type = artillery
+		home = 1301
+	}
+
+	regiment = {
+		name= "2.1st Infantry"
+		type = artillery
+		home = 1300
+	}
+
+	regiment = {
+		name= "3.1st Infantry"
+		type = artillery
+		home = 1297
+	}
+	
+	regiment = {
+		name= "3.1st Infantry"
+		type = hussar
+		home = 1299
+	}
+	
+	regiment = {
+		name= "3.1st Infantry"
+		type = artillery
+		home = 1298
+	}
+
+}
+
+BHO = {
+	value = 125
+}
+
+LAD = {
+	value = 125
+}
+
+BER = {
+	value = 125
+}
+
+BUN = {
+	value = 125
+}
+
+ORI = {
+	value = 125
+}
+
+PAN = {
+	value = 125
+}
+
+BEN = {
+	value = 125
+}
+
+TRA = {
+	value = 125
+}

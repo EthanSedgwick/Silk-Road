@@ -1,7 +1,0 @@
-owner = NRM
-controller = NRM
-
-trade_goods = fish
-life_rating = 35 
-
-add_core = NRM

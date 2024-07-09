@@ -1,0 +1,383 @@
+political_decisions = {
+	sr_form_beifaren = {
+		potential = {
+			primary_culture = beifaren
+			NOT = {
+				exists = BEI
+				exists = MID
+			}
+			NOT = {
+				accepted_culture = kanauji
+			}
+		}
+		allow = {
+			is_greater_power = yes
+			war = no
+			YNN = {
+				all_core = {
+					owner = {
+						OR = {
+							tag = THIS
+							in_sphere = THIS
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+			SXI = {
+				all_core = {
+					owner = {
+						OR = {
+							tag = THIS
+							in_sphere = THIS
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+			MCK = {
+				all_core = {
+					owner = {
+						OR = {
+							tag = THIS
+							in_sphere = THIS
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+			CHI = {
+				all_core = {
+					owner = {
+						OR = {
+							tag = THIS
+							in_sphere = THIS
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			prestige = 15
+			any_country = {
+				limit = {
+					OR = {
+						primary_culture = beifaren
+						tag = MCK
+					}
+					in_sphere = THIS
+					NOT = {
+						tag = THIS
+					}
+				}
+				annex_to = THIS
+			}
+			any_owned = {
+				limit = {
+					is_core = MID
+				}
+				add_core = BEI
+			}			
+			change_tag = BEI
+		}
+	}
+
+	sr_form_sicily = {
+		potential = {
+			tag = SAR
+			NOT = {
+				exists = LOL
+				exists = ITA
+			}
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+			war = no
+			SAR = {
+				all_core = {
+					owner = {
+						OR = {
+							tag = THIS
+							in_sphere = THIS
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+			SIC = {
+				all_core = {
+					owner = {
+						OR = {
+							tag = THIS
+							in_sphere = THIS
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+		}
+		effect = {
+		    change_tag = SCY
+			primary_culture = south_italian
+			prestige = 10
+			any_country = {
+				limit = {
+					primary_culture = south_italian
+					NOT = {
+						tag = THIS
+					}
+				}
+				annex_to = THIS
+			}
+			any_owned = {
+				limit = {
+					is_core = ITA
+				}
+				add_core = SCY
+				remove_core = SIC
+				remove_core = SAR
+				remove_core = PAP
+				remove_core = SPA
+			}
+		}
+	}
+
+
+	sr_form_lombardia = {
+		potential = {
+			tag = SAR
+			NOT = {
+				exists = SCY
+				exists = ITA
+			}
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+			war = no
+			SAR = {
+				all_core = {
+					owner = {
+						OR = {
+							tag = THIS
+							in_sphere = THIS
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+			LOM = {
+				all_core = {
+					owner = {
+						OR = {
+							tag = THIS
+							in_sphere = THIS
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+		}
+		effect = {
+		    change_tag = LOM
+			primary_culture = north_italian
+			prestige = 10
+			any_country = {
+				limit = {
+					primary_culture = north_italian
+					NOT = {
+						tag = THIS
+					}
+				}
+				annex_to = THIS
+			}
+			any_owned = {
+				limit = {
+					is_core = ITA
+				}
+				add_core = SCY
+				remove_core = SAR
+				remove_core = MOD
+				remove_core = LUC
+				remove_core = AUS				
+				remove_core = VEN
+				remove_core = PAR
+			}
+		}
+	}
+
+	sr_form_sunda = {
+		potential = {
+			OR = {
+				tag = JAV
+				tag = JOH
+			}
+			NOT = {
+				exists = SUN
+			}
+		}
+		allow = {
+			state_n_government = 1
+			war = no
+			JOH = {
+				all_core = {
+					owner = {
+						OR = {
+							tag = THIS
+							in_sphere = THIS
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+			JAV = {
+				all_core = {
+					owner = {
+						OR = {
+							tag = THIS
+							in_sphere = THIS
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+		}
+		effect = {
+		    change_tag = SUN
+			primary_culture = javan
+			add_accepted_culture = malay
+			add_accepted_culture = yue 
+			add_accepted_culture = moluccan
+			prestige = 10
+			any_country = {
+				limit = {
+					OR = {
+						primary_culture = malay
+						primary_culture = javan
+					}
+					NOT = {
+						tag = THIS
+					}
+				}
+				annex_to = THIS
+			}
+			any_owned = {
+				limit = {
+					OR = {
+						is_core = JAV
+						is_core = JOH
+					}
+				}
+				add_core = SUN
+				remove_core = JAV
+				remove_core = JOH
+			}
+		}
+	}
+	
+	sr_form_indochina = {
+		potential = {
+			OR = {
+				tag = BEN
+				tag = DAI
+			}
+			NOT = {
+				exists = IDC
+			}
+		}
+		
+		allow = {
+			nationalism_n_imperialism = 1
+			war = no
+			LUA = {
+				all_core = {
+					owner = {
+						OR = {
+							tag = THIS
+							in_sphere = THIS
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+			SIA = {
+				all_core = {
+					owner = {
+						OR = {
+							tag = THIS
+							in_sphere = THIS
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+			WIA = {
+				all_core = {
+					owner = {
+						OR = {
+							tag = THIS
+							in_sphere = THIS
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+			CAM = {
+				all_core = {
+					owner = {
+						OR = {
+							tag = THIS
+							in_sphere = THIS
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+		}
+		effect = {
+		    change_tag = IDC
+			add_accepted_culture = lao
+			add_accepted_culture = khmer
+			add_accepted_culture = burmese
+			add_accepted_culture = thai 
+			add_accepted_culture = vietnamese
+			add_accepted_culture = assamese
+			add_accepted_culture = shan
+			add_accepted_culture = kachin
+			add_accepted_culture = karen
+			prestige = 10
+			any_country = {
+				limit = {
+					OR = {
+						primary_culture = khmer
+						primary_culture = thai
+						primary_culture = lao
+					}
+					NOT = {
+						tag = THIS
+					}
+				}
+				annex_to = THIS
+			}
+			any_owned = {
+				limit = {
+					OR = {
+						is_core = WIA
+						is_core = LUA
+						is_core = CAM
+						is_core = SIA
+						is_core = DAI
+						is_core = BUR
+					}
+				}
+				add_core = IDC
+				remove_core = WIA
+				remove_core = LUA
+				remove_core = CAM
+				remove_core = SIA
+				remove_core = BUR
+			}
+		}
+	}
+	
+}

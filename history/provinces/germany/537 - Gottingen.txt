@@ -1,7 +1,0 @@
-owner = HES
-controller = HES
-add_core = HES
-add_core = BRA
-
-trade_goods = grain
-life_rating = 40 

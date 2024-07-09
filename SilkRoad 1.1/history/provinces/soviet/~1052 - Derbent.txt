@@ -1,0 +1,5 @@
+owner = AZR
+controller = AZR
+add_core = AZR
+trade_goods = fruit
+life_rating = 35

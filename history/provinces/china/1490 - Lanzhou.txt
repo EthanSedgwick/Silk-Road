@@ -1,6 +1,0 @@
-owner = TPG
-controller = TPG
-add_core = TPG
-add_core = MID
-trade_goods = coal
-life_rating = 38 

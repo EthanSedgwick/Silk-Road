@@ -1,0 +1,263 @@
+army = {
+	name = "Army of the Sultan of Borneo"
+	location = 1413
+	regiment = {
+		name= "1.Johore State Troops"
+		type = cuirassier
+		home = 1413
+	}
+
+	regiment = {
+		name= "2.Johore State Troops"
+		type = cuirassier
+		home = 1415
+	}
+
+	regiment = {
+		name= "3.Johore State Troops"
+		type = cuirassier
+		home = 1416
+	}
+	
+		regiment = {
+		name= "2.Johore State Troops"
+		type = artillery
+		home = 1417
+	}
+
+	regiment = {
+		name= "3.Johore State Troops"
+		type = artillery
+		home = 1418
+	}
+	
+	regiment = {
+		name= "3.Johore State Troops"
+		type = hussar
+		home = 1420
+	}
+	
+	regiment = {
+		name= "2.Johore State Troops"
+		type = infantry
+		home = 1421
+	}
+
+	regiment = {
+		name= "3.Johore State Troops"
+		type = infantry
+		home = 1438
+	}
+	
+		regiment = {
+		name= "2.Johore State Troops"
+		type = infantry
+		home = 1438
+	}
+
+	regiment = {
+		name= "3.Johore State Troops"
+		type = infantry
+		home = 1438
+	}
+}
+
+army = {
+	name = "Army of the Sultan of Java"
+	location = 1420
+	regiment = {
+		name= "1.Johore State Troops"
+		type = cuirassier
+		home = 1413
+	}
+
+	regiment = {
+		name= "2.Johore State Troops"
+		type = cuirassier
+		home = 1415
+	}
+
+	regiment = {
+		name= "3.Johore State Troops"
+		type = cuirassier
+		home = 1416
+	}
+	
+		regiment = {
+		name= "2.Johore State Troops"
+		type = artillery
+		home = 1417
+	}
+
+	regiment = {
+		name= "3.Johore State Troops"
+		type = artillery
+		home = 1418
+	}
+	
+	regiment = {
+		name= "3.Johore State Troops"
+		type = hussar
+		home = 1420
+	}
+	
+	regiment = {
+		name= "2.Johore State Troops"
+		type = infantry
+		home = 1421
+	}
+
+	regiment = {
+		name= "3.Johore State Troops"
+		type = infantry
+		home = 1438
+	}
+	
+		regiment = {
+		name= "2.Johore State Troops"
+		type = infantry
+		home = 1438
+	}
+
+	regiment = {
+		name= "3.Johore State Troops"
+		type = infantry
+		home = 1438
+	}
+}
+
+navy = {
+	name = "Java Fleet"
+	location = 1413
+
+	ship = {
+		name= "HMS Powerful"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Prince Regent"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Princess Charlotte"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Rodney"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Royal Adelaide"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Royal George"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Russell"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "HMS Talavera"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "HMS Thunderer"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "HMS Vanguard"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "HMS Vengeance"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "HMS Waterloo"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "HMS America"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "HMS Castor"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "HMS Conquestadore"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "HMS Eagle"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "HMS Forth"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "HMS Gloucester"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "HMS Pique"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "HMS Seahorse"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "HMS Stag"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "HMS Thalia"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "HMS Vernon"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "HMS Vindictive"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "HMS Medea"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "HMS Phoenix"
+		type = clipper_transport
+	}
+
+}

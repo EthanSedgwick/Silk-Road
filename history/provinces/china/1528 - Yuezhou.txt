@@ -1,7 +1,0 @@
-add_core = MID
-add_core = GXI
-trade_goods = iron
-life_rating = 35
-
-owner = GXI
-controller = GXI

@@ -1,5 +1,0 @@
-owner = BAS
-controller = BAS
-add_core = AST
-trade_goods = fruit
-life_rating = 30 

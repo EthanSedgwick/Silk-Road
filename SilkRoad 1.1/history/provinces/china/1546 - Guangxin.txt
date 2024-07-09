@@ -1,0 +1,6 @@
+owner = JAP
+controller = JAP
+add_core = GXI
+add_core = MID
+trade_goods = tea
+life_rating = 35 

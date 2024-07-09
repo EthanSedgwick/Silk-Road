@@ -1,7 +1,0 @@
-owner = NAV
-controller = NAV
-add_core = NAV
-add_core = PRO
-trade_goods = tobacco
-life_rating = 35
-1861.1.1 = { railroad = 3 }

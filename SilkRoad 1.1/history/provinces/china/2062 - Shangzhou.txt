@@ -1,0 +1,16 @@
+owner = TPG
+controller = TPG
+add_core = TPG
+add_core = MID
+trade_goods = coal
+life_rating = 38 
+state_building = {
+	level = 2
+	building = cement_factory
+	upgrade = yes
+}
+state_building = {
+	level = 2
+	building = steel_factory
+	upgrade = yes
+}

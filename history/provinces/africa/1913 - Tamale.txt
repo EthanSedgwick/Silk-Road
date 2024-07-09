@@ -1,4 +1,0 @@
-controller = GWA
-owner = GWA
-trade_goods = grain
-life_rating = 15

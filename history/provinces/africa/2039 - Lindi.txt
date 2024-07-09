@@ -1,6 +1,0 @@
-owner = JOH
-controller = JOH
-colonial = 2
-add_core = ZAN
-trade_goods = grain
-life_rating = 35 

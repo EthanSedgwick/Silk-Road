@@ -1,0 +1,31 @@
+political_decisions = {
+
+	show_util = {
+		alert = no
+		potential = {
+			ai = no
+			NOT = {has_country_flag = show_util}
+		}
+		allow = {
+			ai = no
+		}
+		effect = {
+			set_country_flag = show_util
+		}
+	}
+
+	hide_util = {
+		alert = no
+		potential = {
+			ai = no
+			has_country_flag = show_util
+		}
+		allow = {
+			ai = no
+		}
+		effect = {
+			clr_country_flag = show_util
+		}
+	}
+
+}

@@ -1,0 +1,5 @@
+owner = JAI
+controller = JAI
+add_core = AST
+trade_goods = wool
+life_rating = 30

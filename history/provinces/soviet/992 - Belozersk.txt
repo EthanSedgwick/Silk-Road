@@ -1,5 +1,0 @@
-owner = NVG
-controller = NVG
-add_core = NVG
-trade_goods = cattle
-life_rating = 35
