@@ -1,0 +1,6 @@
+owner = JAP
+controller = JAP
+add_core = KOR
+add_core = MGL
+trade_goods = iron
+life_rating = 35 
